@@ -1,41 +1,55 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\",
+  "WorkspaceRootPath": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\Inventar\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\aspBiznes\\Data\\Migrations\\20260210112834_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:aspBiznes\\Data\\Migrations\\20260210112834_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{972F74FB-69F7-42F8-87DF-7CD3D2AF9C5F}|aspBiznes\\aspBiznes.csproj|c:\\users\\1212-6\\desktop\\12a\\aspbiznes\\inventar\\aspbiznes\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{972F74FB-69F7-42F8-87DF-7CD3D2AF9C5F}|aspBiznes\\aspBiznes.csproj|solutionrelative:aspbiznes\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{972F74FB-69F7-42F8-87DF-7CD3D2AF9C5F}|aspBiznes\\aspBiznes.csproj|c:\\users\\1212-6\\desktop\\12a\\aspbiznes\\aspbiznes\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{972F74FB-69F7-42F8-87DF-7CD3D2AF9C5F}|aspBiznes\\aspBiznes.csproj|solutionrelative:aspbiznes\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{972F74FB-69F7-42F8-87DF-7CD3D2AF9C5F}|aspBiznes\\aspBiznes.csproj|c:\\users\\1212-6\\desktop\\12a\\aspbiznes\\inventar\\aspbiznes\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{972F74FB-69F7-42F8-87DF-7CD3D2AF9C5F}|aspBiznes\\aspBiznes.csproj|solutionrelative:aspbiznes\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{972F74FB-69F7-42F8-87DF-7CD3D2AF9C5F}|aspBiznes\\aspBiznes.csproj|c:\\users\\1212-6\\desktop\\12a\\aspbiznes\\aspbiznes\\data\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{972F74FB-69F7-42F8-87DF-7CD3D2AF9C5F}|aspBiznes\\aspBiznes.csproj|c:\\users\\1212-6\\desktop\\12a\\aspbiznes\\inventar\\aspbiznes\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{972F74FB-69F7-42F8-87DF-7CD3D2AF9C5F}|aspBiznes\\aspBiznes.csproj|solutionrelative:aspbiznes\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{972F74FB-69F7-42F8-87DF-7CD3D2AF9C5F}|aspBiznes\\aspBiznes.csproj|c:\\users\\1212-6\\desktop\\12a\\aspbiznes\\inventar\\aspbiznes\\services\\applicationbuilderextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{972F74FB-69F7-42F8-87DF-7CD3D2AF9C5F}|aspBiznes\\aspBiznes.csproj|solutionrelative:aspbiznes\\services\\applicationbuilderextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{972F74FB-69F7-42F8-87DF-7CD3D2AF9C5F}|aspBiznes\\aspBiznes.csproj|c:\\users\\1212-6\\desktop\\12a\\aspbiznes\\inventar\\aspbiznes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{972F74FB-69F7-42F8-87DF-7CD3D2AF9C5F}|aspBiznes\\aspBiznes.csproj|solutionrelative:aspbiznes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\1212-6\\Downloads\\ApplicationBuilderExtension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{972F74FB-69F7-42F8-87DF-7CD3D2AF9C5F}|aspBiznes\\aspBiznes.csproj|c:\\users\\1212-6\\desktop\\12a\\aspbiznes\\inventar\\aspbiznes\\data\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{972F74FB-69F7-42F8-87DF-7CD3D2AF9C5F}|aspBiznes\\aspBiznes.csproj|solutionrelative:aspbiznes\\data\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{972F74FB-69F7-42F8-87DF-7CD3D2AF9C5F}|aspBiznes\\aspBiznes.csproj|c:\\users\\1212-6\\desktop\\12a\\aspbiznes\\aspbiznes\\data\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{972F74FB-69F7-42F8-87DF-7CD3D2AF9C5F}|aspBiznes\\aspBiznes.csproj|solutionrelative:aspbiznes\\data\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{972F74FB-69F7-42F8-87DF-7CD3D2AF9C5F}|aspBiznes\\aspBiznes.csproj|c:\\users\\1212-6\\desktop\\12a\\aspbiznes\\aspbiznes\\data\\items.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{972F74FB-69F7-42F8-87DF-7CD3D2AF9C5F}|aspBiznes\\aspBiznes.csproj|c:\\users\\1212-6\\desktop\\12a\\aspbiznes\\inventar\\aspbiznes\\data\\items.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{972F74FB-69F7-42F8-87DF-7CD3D2AF9C5F}|aspBiznes\\aspBiznes.csproj|solutionrelative:aspbiznes\\data\\items.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{972F74FB-69F7-42F8-87DF-7CD3D2AF9C5F}|aspBiznes\\aspBiznes.csproj|c:\\users\\1212-6\\desktop\\12a\\aspbiznes\\aspbiznes\\data\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{972F74FB-69F7-42F8-87DF-7CD3D2AF9C5F}|aspBiznes\\aspBiznes.csproj|solutionrelative:aspbiznes\\data\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{972F74FB-69F7-42F8-87DF-7CD3D2AF9C5F}|aspBiznes\\aspBiznes.csproj|c:\\users\\1212-6\\desktop\\12a\\aspbiznes\\inventar\\aspbiznes\\aspbiznes.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{972F74FB-69F7-42F8-87DF-7CD3D2AF9C5F}|aspBiznes\\aspBiznes.csproj|solutionrelative:aspbiznes\\aspbiznes.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{972F74FB-69F7-42F8-87DF-7CD3D2AF9C5F}|aspBiznes\\aspBiznes.csproj|c:\\users\\1212-6\\desktop\\12a\\aspbiznes\\aspbiznes\\data\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{972F74FB-69F7-42F8-87DF-7CD3D2AF9C5F}|aspBiznes\\aspBiznes.csproj|solutionrelative:aspbiznes\\data\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{972F74FB-69F7-42F8-87DF-7CD3D2AF9C5F}|aspBiznes\\aspBiznes.csproj|c:\\users\\1212-6\\desktop\\12a\\aspbiznes\\inventar\\aspbiznes\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{972F74FB-69F7-42F8-87DF-7CD3D2AF9C5F}|aspBiznes\\aspBiznes.csproj|solutionrelative:aspbiznes\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{972F74FB-69F7-42F8-87DF-7CD3D2AF9C5F}|aspBiznes\\aspBiznes.csproj|c:\\users\\1212-6\\desktop\\12a\\aspbiznes\\aspbiznes\\data\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{972F74FB-69F7-42F8-87DF-7CD3D2AF9C5F}|aspBiznes\\aspBiznes.csproj|solutionrelative:aspbiznes\\data\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/AspBiznes/True/SqlTable/dbo.CartItems.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{972F74FB-69F7-42F8-87DF-7CD3D2AF9C5F}|aspBiznes\\aspBiznes.csproj|c:\\users\\1212-6\\desktop\\12a\\aspbiznes\\aspbiznes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{972F74FB-69F7-42F8-87DF-7CD3D2AF9C5F}|aspBiznes\\aspBiznes.csproj|c:\\users\\1212-6\\desktop\\12a\\aspbiznes\\inventar\\aspbiznes\\data\\migrations\\20260210112834_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{972F74FB-69F7-42F8-87DF-7CD3D2AF9C5F}|aspBiznes\\aspBiznes.csproj|solutionrelative:aspbiznes\\data\\migrations\\20260210112834_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{972F74FB-69F7-42F8-87DF-7CD3D2AF9C5F}|aspBiznes\\aspBiznes.csproj|c:\\users\\1212-6\\desktop\\12a\\aspbiznes\\inventar\\aspbiznes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{972F74FB-69F7-42F8-87DF-7CD3D2AF9C5F}|aspBiznes\\aspBiznes.csproj|solutionrelative:aspbiznes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -46,7 +60,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,120 +68,157 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20260210112834_Initial.cs",
-              "DocumentMoniker": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\aspBiznes\\Data\\Migrations\\20260210112834_Initial.cs",
-              "RelativeDocumentMoniker": "aspBiznes\\Data\\Migrations\\20260210112834_Initial.cs",
-              "ToolTip": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\aspBiznes\\Data\\Migrations\\20260210112834_Initial.cs",
-              "RelativeToolTip": "aspBiznes\\Data\\Migrations\\20260210112834_Initial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ApplicationBuilderExtension.cs",
+              "DocumentMoniker": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\Inventar\\aspBiznes\\Services\\ApplicationBuilderExtension.cs",
+              "RelativeDocumentMoniker": "aspBiznes\\Services\\ApplicationBuilderExtension.cs",
+              "ToolTip": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\Inventar\\aspBiznes\\Services\\ApplicationBuilderExtension.cs",
+              "RelativeToolTip": "aspBiznes\\Services\\ApplicationBuilderExtension.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowDwAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T11:28:34.327Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-17T11:31:18.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationBuilderExtension.cs",
+              "DocumentMoniker": "C:\\Users\\1212-6\\Downloads\\ApplicationBuilderExtension.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\ApplicationBuilderExtension.cs",
+              "ToolTip": "C:\\Users\\1212-6\\Downloads\\ApplicationBuilderExtension.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\ApplicationBuilderExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T11:06:53.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\Inventar\\aspBiznes\\Program.cs",
+              "RelativeDocumentMoniker": "aspBiznes\\Program.cs",
+              "ToolTip": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\Inventar\\aspBiznes\\Program.cs",
+              "RelativeToolTip": "aspBiznes\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBYAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T07:20:00.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\Inventar\\aspBiznes\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "aspBiznes\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\Inventar\\aspBiznes\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "aspBiznes\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-17T07:03:12.586Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\aspBiznes\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "aspBiznes\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\aspBiznes\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "aspBiznes\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\Inventar\\aspBiznes\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "aspBiznes\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\Inventar\\aspBiznes\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "aspBiznes\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAAAHkAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T11:22:40.138Z",
+              "WhenOpened": "2026-02-17T07:51:27.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\Inventar\\aspBiznes\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "aspBiznes\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\Inventar\\aspBiznes\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "aspBiznes\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAgwGAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T07:04:10.188Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "CartItem.cs",
-              "DocumentMoniker": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\aspBiznes\\Data\\CartItem.cs",
-              "RelativeDocumentMoniker": "aspBiznes\\Data\\CartItem.cs",
-              "ToolTip": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\aspBiznes\\Data\\CartItem.cs",
-              "RelativeToolTip": "aspBiznes\\Data\\CartItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\Inventar\\aspBiznes\\Data\\Client.cs",
+              "RelativeDocumentMoniker": "aspBiznes\\Data\\Client.cs",
+              "ToolTip": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\Inventar\\aspBiznes\\Data\\Client.cs",
+              "RelativeToolTip": "aspBiznes\\Data\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T10:46:22.769Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T10:44:58.71Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Cart.cs",
-              "DocumentMoniker": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\aspBiznes\\Data\\Cart.cs",
-              "RelativeDocumentMoniker": "aspBiznes\\Data\\Cart.cs",
-              "ToolTip": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\aspBiznes\\Data\\Cart.cs",
-              "RelativeToolTip": "aspBiznes\\Data\\Cart.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Title": "Items.cs",
+              "DocumentMoniker": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\Inventar\\aspBiznes\\Data\\Items.cs",
+              "RelativeDocumentMoniker": "aspBiznes\\Data\\Items.cs",
+              "ToolTip": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\Inventar\\aspBiznes\\Data\\Items.cs",
+              "RelativeToolTip": "aspBiznes\\Data\\Items.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T10:50:52.392Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Client.cs",
-              "DocumentMoniker": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\aspBiznes\\Data\\Client.cs",
-              "RelativeDocumentMoniker": "aspBiznes\\Data\\Client.cs",
-              "ToolTip": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\aspBiznes\\Data\\Client.cs",
-              "RelativeToolTip": "aspBiznes\\Data\\Client.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T10:44:58.71Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Supplier.cs",
-              "DocumentMoniker": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\aspBiznes\\Data\\Supplier.cs",
-              "RelativeDocumentMoniker": "aspBiznes\\Data\\Supplier.cs",
-              "ToolTip": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\aspBiznes\\Data\\Supplier.cs",
-              "RelativeToolTip": "aspBiznes\\Data\\Supplier.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T10:42:39.976Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\aspBiznes\\Data\\Category.cs",
-              "RelativeDocumentMoniker": "aspBiznes\\Data\\Category.cs",
-              "ToolTip": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\aspBiznes\\Data\\Category.cs",
-              "RelativeToolTip": "aspBiznes\\Data\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T10:40:39.75Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-17T11:31:35.976Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\aspBiznes\\appsettings.json",
-              "RelativeDocumentMoniker": "aspBiznes\\appsettings.json",
-              "ToolTip": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\aspBiznes\\appsettings.json",
-              "RelativeToolTip": "aspBiznes\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-02-10T10:36:49.398Z",
-              "EditorCaption": ""
+              "Title": "aspBiznes.csproj",
+              "DocumentMoniker": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\Inventar\\aspBiznes\\aspBiznes.csproj",
+              "RelativeDocumentMoniker": "aspBiznes\\aspBiznes.csproj",
+              "ToolTip": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\Inventar\\aspBiznes\\aspBiznes.csproj",
+              "RelativeToolTip": "aspBiznes\\aspBiznes.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-17T11:29:38.619Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Items.cs",
-              "DocumentMoniker": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\aspBiznes\\Data\\Items.cs",
-              "RelativeDocumentMoniker": "aspBiznes\\Data\\Items.cs",
-              "ToolTip": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\aspBiznes\\Data\\Items.cs",
-              "RelativeToolTip": "aspBiznes\\Data\\Items.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAIwBoAAAAbAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\Inventar\\aspBiznes\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "aspBiznes\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\Inventar\\aspBiznes\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "aspBiznes\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-17T07:50:10.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "dbo.CartItems.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/AspBiznes/True/SqlTable/dbo.CartItems.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/AspBiznes/True/SqlTable/dbo.CartItems.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-02-17T06:54:28.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20260210112834_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\Inventar\\aspBiznes\\Data\\Migrations\\20260210112834_Initial.cs",
+              "RelativeDocumentMoniker": "aspBiznes\\Data\\Migrations\\20260210112834_Initial.cs",
+              "ToolTip": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\Inventar\\aspBiznes\\Data\\Migrations\\20260210112834_Initial.cs",
+              "RelativeToolTip": "aspBiznes\\Data\\Migrations\\20260210112834_Initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T10:31:11.316Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T11:28:34.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\Inventar\\aspBiznes\\appsettings.json",
+              "RelativeDocumentMoniker": "aspBiznes\\appsettings.json",
+              "ToolTip": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\Inventar\\aspBiznes\\appsettings.json",
+              "RelativeToolTip": "aspBiznes\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-10T10:36:49.398Z"
             }
           ]
         }

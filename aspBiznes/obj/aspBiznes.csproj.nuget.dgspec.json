@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\aspBiznes\\aspBiznes.csproj": {}
+    "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\Inventar\\aspBiznes\\aspBiznes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\aspBiznes\\aspBiznes.csproj": {
+    "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\Inventar\\aspBiznes\\aspBiznes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\aspBiznes\\aspBiznes.csproj",
+        "projectUniqueName": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\Inventar\\aspBiznes\\aspBiznes.csproj",
         "projectName": "aspBiznes",
-        "projectPath": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\aspBiznes\\aspBiznes.csproj",
+        "projectPath": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\Inventar\\aspBiznes\\aspBiznes.csproj",
         "packagesPath": "C:\\Users\\1212-6\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\aspBiznes\\obj\\",
+        "outputPath": "C:\\Users\\1212-6\\Desktop\\12a\\aspBiznes\\Inventar\\aspBiznes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -57,19 +57,29 @@
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.10, )"
+              "version": "[9.0.12, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[9.0.10, )"
+              "version": "[9.0.12, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[9.0.10, )"
+              "version": "[9.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.12, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.10, )"
+              "version": "[9.0.12, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[9.0.12, )"
             }
           },
           "imports": [

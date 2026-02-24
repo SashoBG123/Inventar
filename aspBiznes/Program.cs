@@ -22,7 +22,10 @@ namespace aspBiznes
                             .AddEntityFrameworkStores<ApplicationDbContext>()
                             .AddDefaultTokenProviders();
             builder.Services.AddControllersWithViews();
-
+            builder.Services.AddRazorPages();
+            builder.Services.AddControllers(
+             options =>
+             options.SuppressImplicitRequiredAttributeForNonNullableReferenceTypes = true);
             var app = builder.Build();
             app.PrepareDataBase().Wait();
 
@@ -40,6 +43,9 @@ namespace aspBiznes
 
             app.UseHttpsRedirection();
             app.UseRouting();
+
+            // Add authentication middleware so sign-in cookies are issued and validated
+            app.UseAuthentication();
 
             app.UseAuthorization();
 

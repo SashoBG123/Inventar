@@ -1,0 +1,38 @@
+﻿@model aspBiznes.Data.Cart
+
+@{
+    ViewData["Title"] = "Създай кошница";
+}
+
+<div class="container my-4">
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <h2 class="card-title mb-3">Нова поръчка</h2>
+
+            <form asp-action="Create" class="row g-3">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="col-12">
+                    <label asp-for="ItemId" class="form-label"></label>
+                    <select asp-for="ItemId" class="form-select" asp-items="ViewBag.ItemId"></select>
+                    <span asp-validation-for="ItemId" class="text-danger"></span>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <label asp-for="Quantity" class="form-label"></label>
+                    <input asp-for="Quantity" class="form-control" />
+                    <span asp-validation-for="Quantity" class="text-danger"></span>
+                </div>
+
+                <div class="col-12 d-flex gap-2">
+                    <button type="submit" class="btn btn-primary">Запази поръчката</button>
+                    <a asp-controller="Items" asp-action="Index" class="btn btn-outline-secondary">Откажи</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

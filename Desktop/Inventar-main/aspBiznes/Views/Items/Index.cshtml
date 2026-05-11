@@ -1,0 +1,97 @@
+@model IEnumerable<aspBiznes.Data.Item>
+
+@{
+    ViewData["Title"] = "Продукти";
+    var records = Model ?? Enumerable.Empty<aspBiznes.Data.Item>();
+    var isAdmin = User.IsInRole("Admin");
+    var isLoggedIn = User.Identity?.IsAuthenticated ?? false;
+}
+
+<div class="store-hero mb-4">
+    <div>
+        <p class="section-title mb-2">Онлайн каталог</p>
+        <h1>Продукти</h1>
+        <p>Разгледайте наличните артикули. Поръчки могат да правят само влезли потребители.</p>
+    </div>
+
+    @if (isAdmin)
+    {
+        <a class="btn btn-light" asp-action="Create">Добави продукт</a>
+    }
+</div>
+
+@if (!records.Any())
+{
+    <div class="content-card empty-state">Все още няма добавени продукти.</div>
+}
+else
+{
+    <div class="product-grid">
+        @foreach (var item in records)
+        {
+            var hasImage = !string.IsNullOrWhiteSpace(item.ImageUrl);
+            var inStock = item.Quantity > 0;
+
+            <article class="product-card">
+                <a class="product-media" asp-action="Details" asp-route-id="@item.Id" aria-label="Детайли за @item.Name">
+                    @if (hasImage)
+                    {
+                        <img src="@item.ImageUrl" alt="@item.Name" />
+                    }
+                    else
+                    {
+                        <div class="product-placeholder">@item.Name?.FirstOrDefault()</div>
+                    }
+                    <span class="stock-badge @(inStock ? "in-stock" : "out-stock")">
+                        @(inStock ? $"Налични: {item.Quantity}" : "Изчерпан")
+                    </span>
+                </a>
+
+                <div class="product-body">
+                    <div class="product-meta">
+                        <span>@(item.Categories?.Name ?? "Категория")</span>
+                        <span>@(item.Suppliers?.Name ?? "Доставчик")</span>
+                    </div>
+                    <h2>@item.Name</h2>
+                    <p>@item.Description</p>
+
+                    <div class="product-foot">
+                        <div>
+                            <span class="price">@item.Price.ToString("0.00") лв.</span>
+                            @if (item.ExpiryDate.HasValue)
+                            {
+                                <span class="expiry">Годно до @item.ExpiryDate.Value.ToString("dd.MM.yyyy")</span>
+                            }
+                        </div>
+                    </div>
+
+                    <div class="product-actions">
+                        <a class="btn btn-outline-secondary" asp-action="Details" asp-route-id="@item.Id">Детайли</a>
+
+                        @if (isLoggedIn && !isAdmin)
+                        {
+                            <form asp-controller="Carts" asp-action="Create" method="post" class="order-form">
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="ItemId" value="@item.Id" />
+                                <input class="form-control" type="number" name="Quantity" value="1" min="1" max="@Math.Max(item.Quantity, 1)" aria-label="Количество" />
+                                <button class="btn btn-primary" type="submit" disabled="@(!inStock)">Поръчай</button>
+                            </form>
+                        }
+                        else if (!isLoggedIn)
+                        {
+                            <a class="btn btn-primary" asp-area="Identity" asp-page="/Account/Login">Вход за поръчка</a>
+                        }
+
+                        @if (isAdmin)
+                        {
+                            <div class="admin-actions">
+                                <a class="btn btn-outline-primary" asp-action="Edit" asp-route-id="@item.Id">Редакция</a>
+                                <a class="btn btn-outline-danger" asp-action="Delete" asp-route-id="@item.Id">Изтрий</a>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </article>
+        }
+    </div>
+}

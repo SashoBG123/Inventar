@@ -1,0 +1,76 @@
+﻿@model IEnumerable<aspBiznes.Data.Supplier>
+
+@{
+    ViewData["Title"] = "Доставчици";
+    var records = Model ?? Enumerable.Empty<aspBiznes.Data.Supplier>();
+    var isAdmin = User.IsInRole("Admin");
+}
+
+<div class="page-toolbar">
+    <div>
+        <h1>Доставчици</h1>
+        <p>Контакти и регистрационни данни на партньорите.</p>
+    </div>
+    @if (isAdmin)
+    {
+        <a class="btn btn-primary" asp-action="Create">Нов доставчик</a>
+    }
+</div>
+
+<div class="table-card">
+<div class="table-responsive">
+<table class="table table-hover align-middle">
+    <thead>
+        <tr>
+            <th>Име</th>
+            <th>ЕИК</th>
+            <th>Имейл</th>
+            <th>Адрес</th>
+            <th>Дата на регистрация</th>
+            @if (isAdmin)
+            {
+                <th class="text-end">Действия</th>
+            }
+        </tr>
+    </thead>
+    <tbody>
+@if (!records.Any())
+{
+        <tr>
+            <td colspan="@(isAdmin ? 6 : 5)" class="empty-state">Все още няма добавени доставчици.</td>
+        </tr>
+}
+else
+{
+@foreach (var item in records) {
+        <tr>
+            <td class="fw-semibold">
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EIK)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateRegister)
+            </td>
+            @if (isAdmin)
+            {
+                <td class="actions text-end">
+                    <a class="btn btn-sm btn-outline-secondary" asp-action="Details" asp-route-id="@item.Id">Детайли</a>
+                    <a class="btn btn-sm btn-outline-primary" asp-action="Edit" asp-route-id="@item.Id">Редакция</a>
+                    <a class="btn btn-sm btn-outline-danger" asp-action="Delete" asp-route-id="@item.Id">Изтрий</a>
+                </td>
+            }
+        </tr>
+}
+}
+    </tbody>
+</table>
+</div>
+</div>

@@ -1,0 +1,47 @@
+@model aspBiznes.Models.ReportsViewModel
+
+@{
+    ViewData["Title"] = "Справки и доклади";
+}
+
+<div class="page-toolbar">
+    <div>
+        <h1>Справки и доклади</h1>
+        <p>Кратък преглед на каталога, поръчките и складовите наличности.</p>
+    </div>
+    <a class="btn btn-primary" asp-controller="Items" asp-action="Index">Към каталога</a>
+</div>
+
+<section class="report-grid mb-4">
+    <div class="report-card">
+        <span>Артикули</span>
+        <strong>@Model.ItemsCount</strong>
+    </div>
+    <div class="report-card">
+        <span>Категории</span>
+        <strong>@Model.CategoriesCount</strong>
+    </div>
+    <div class="report-card">
+        <span>Доставчици</span>
+        <strong>@Model.SuppliersCount</strong>
+    </div>
+    <div class="report-card">
+        <span>Поръчки</span>
+        <strong>@Model.OrdersCount</strong>
+    </div>
+</section>
+
+<section class="content-card info-page">
+    <p class="section-title mb-2">Наличности</p>
+    <h2 class="h4 fw-bold">Общо @Model.TotalStock бр. в склада</h2>
+    <div class="info-grid mt-4">
+        <div>
+            <h2>Ниски наличности</h2>
+            <p>@Model.LowStockItems артикула са с 5 или по-малко броя.</p>
+        </div>
+        <div>
+            <h2>Изчерпани артикули</h2>
+            <p>@Model.OutOfStockItems артикула са без наличност и изискват внимание.</p>
+        </div>
+    </div>
+</section>
